@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+ <head>
+
     <meta charset="UTF-8">
     <title>Vasconews</title>
-</head>
+    <link rel="stylesheet" href="estilos.css">  
 
-<body>
+ </head>
 
-  <header style="background-color: #1a1a1a; padding: 18px 48px; display: flex; justify-content: space-between; align-items: center;">
+ <body>
+
+  <header class="header-principal">
     <img src="/Users/joww/prog-para-internet/Club_de_Regatas_Vasco_da_Gama_logo_(2021).svg.png" alt="Imagem de exemplo" style="width: 50px; height: 60px; margin: 10px; border: 3px solid #cccccc; border-radius: 12px;">
-    <h1 style="color: #f1e9e9; text-align: center; font-size: 36px; font-weight: bold; letter-spacing: 2px; line-height: 0%;">
-   VascoNews
-  </h1>
-    <nav style="display: flex; gap: 28px; align-items: center;">
-      <a href="index.html" style="font-size: 13px; color: #888; text-decoration: none;">inicio</a>
-      <a href="#flexbox" style="font-size: 13px; color: #888; text-decoration: none;">jogos</a>
-      <a href="#blog" style="font-size: 13px; color: #888; text-decoration: none;">noticias</a>
+
+    <div id="banner">
+
+    <h1 class="titulo-site">
+     Vasco News
+    </h1>
+
+    </div>
+
+    <div id="menu">
+
+    <nav class="nav-menu">
+
+      <a href="index.html" class="link-menu">inicio</a>
+      <a href="#flexbox" class="link-menu">jogos</a>
+      <a href="#blog" class="link-menu">noticias</a>
+
     </nav>
+
+    </div>
   </header>
 
 
 
-  <p style=" text-align: center; font-family: 'Courier New', Courier, monospace; line-height: 1%;">
+  <p class="slogan-vasco">
     O melhor site de noticias do Vasco da gama 
   </p>
 
  
 
-  <p style="font-family: Arial; font-size: 16px;text-align: center; color: #555555; line-height: 1.6; margin: 10px 0; padding: 10px; background-color: #f9f9f9; border-radius: 8px;">Atraves desse site voce pode acompanhar o gigante da colina, tanto na campo quanto na presidencia como:
-
-  </p>
+  <p class="caixa-informativa"> Mantenha-se atualizado: </p>
 
   <nav>
     <ul>
@@ -41,20 +54,31 @@
   </nav>
 
   <main>
-    <h2>Principais objetivos</h2>
+
+    <div id="conteudo">
+
+    <h2>Procurar:</h2>
      <ol>
         <li>Escalações</li>
         <li>Financeiro</li>
         <li>Entrevistas de emprensa</li>
      </ol>
    <h2>Saiba mais sobre o gigante:</h2>
+
+    </div>
+
   </main>
 
   <footer>
-    <a href="https://en.wikipedia.org/wiki/CR_Vasco_da_Gama" style="color: #330916; text-decoration: none; font-weight: bold; border: #1a1a1a;">Wiki</a>
-  <br>
-    <a href="https://vasco.com.br/" style="color: #330916; text-decoration: none; font-weight: bold;">Site Oficial do Vasco</a>
+    <div id="rodape">
+
+    <a href="https://en.wikipedia.org/wiki/CR_Vasco_da_Gama" class="link-rodape"> Wiki </a>
+   <br>
+    <a href="https://vasco.com.br/" class="link-rodape"> Site Oficial do Vasco </a>
+    
+    </div>
   </footer>
 
-</body>
+ </body>
+
 </html>
