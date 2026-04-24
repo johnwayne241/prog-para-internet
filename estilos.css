@@ -285,5 +285,29 @@ img {
     transform: scale(2);
 }
 
+#btn-interativo {
+  background-color: #2563EB;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+#btn-interativo:hover {
+  background-color: #1D4ED8;
+}
+
+
+#mensagem {
+  margin-top: 12px;
+  color: #059669;
+  font-weight: bold;
+}
+
+
+
 
 
